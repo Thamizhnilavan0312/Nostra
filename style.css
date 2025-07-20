@@ -67,22 +67,6 @@ body {
     color: #1D232C;
 }
 
-.navbarSearch {
-    border: solid #1D232C 1px;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    width: 95%;
-}
-
-.navbarSearch input {
-    border: none;
-    width: 100%;
-    background-color: transparent;
-    
-}
-
 input:focus {
     outline: none;
 }
@@ -137,17 +121,6 @@ input:focus {
     color: #E2E1E1;
 }
 
-.sideNavbarSearch {
-    border: solid #E2E1E1 1px;
-    border-radius: 10px;
-    padding: 10px;
-    display: inline-block;
-}
-
-.sideNavbarSearch input {
-    border: none;
-    background: transparent;
-}
 
 /*Slider*/
 
@@ -232,7 +205,7 @@ input:focus {
     font-size: 2vw;
 }
 
-.servives-container-1
+.services-container-1
 {
     margin-top: 5vw;
     margin-bottom: 2vw;
@@ -242,7 +215,7 @@ input:focus {
     font-size: 1.5vw;
 }
 
-.servives-container-2
+.services-container-2
 {
     
     display: flex;
@@ -254,7 +227,7 @@ input:focus {
     
 }
 
-.servives-container-2 div{
+.services-container-2 div{
     border-radius: 5px;
     background-color: #F2F4F7;
     padding: 10px;
@@ -488,27 +461,14 @@ input:focus {
 .product-section{
     flex-basis: 75%;
     position: relative;
+    padding: 10px;
 }
 
-.vertical-line {
-    border: none;
-    border-left: 3px solid #1D232C; /* Adjust color and width as needed */
-    height: 100%; /* Adjust height as needed */
-    margin: 0 20px; /* Adjust margin as needed */
-    position: absolute;
-    top: 0px;
-    right: 0px
-    
-  }
 
 .filter-section-price,.filter-section-arrivals,.filter-section-occasion,.filter-section-colors{
     margin-top: 3vw;
     margin-bottom: 10px;
     
-}
-
-.product-section{
-    padding: 10px;
 }
 
 .products{
@@ -518,8 +478,6 @@ input:focus {
     justify-content: space-between;
     font-size:1vw;
 }
-
-
 
   .contact-form {
     background-color: #1D232C;
